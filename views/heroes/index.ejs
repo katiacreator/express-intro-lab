@@ -14,7 +14,9 @@
     <% } %>
     <ul>
       <% heroes.forEach(function(hero) { %>
-      <li><%= hero.text %> - <%= hero.survived ? 'survived' : 'dead, but will live forever in our hearts' %></li>
+        <%= hero.img %> 
+        <img src="<%= hero.src %> " alt="<%= hero.name %> pic" width="100px" height="100px">
+      <li><%= hero.name %> - <%= hero.status  %></li>
       <% }) %>
     </ul>
   </body>

@@ -3,12 +3,12 @@ export {
 }
 
 const heroes = [
-  {text: 'Ironman', survived: false, _id: 641198},
-  {text: 'War Machine', survived: true, _id: 512236},
-  {text: 'Black Widow', survived: false, _id: 304167},
-  {text: 'Hulk', survived: true, _id: 266334},
-  {text: 'Thor', survived: true, _id: 655055},
-  {text: 'Hawkeye', survived: true, _id: 551843},
+  {src: `https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest?cb=20190423175213` , name: 'Ironman', status: "dead", _id: 641198},
+  {src: `https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest?cb=20190423175213`, name: 'War Machine', status: "alive", _id: 512236},
+  {src: `https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest?cb=20190423175213`, name: 'Black Widow', status: "dead", _id: 304167},
+  {src: `https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest?cb=20190423175213`, name: 'Hulk', status: "alive", _id: 266334},
+  {src: `https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest?cb=20190423175213`, name: 'Thor', status: "alive", _id: 655055},
+  {src: `https://static.wikia.nocookie.net/marvelcinematicuniverse/images/3/35/IronMan-EndgameProfile.jpg/revision/latest?cb=20190423175213`, name: 'Hawkeye', status: "alive", _id: 551843},
 ]
 
 const find = (conditions, callback) => {
