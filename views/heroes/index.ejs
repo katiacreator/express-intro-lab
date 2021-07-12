@@ -8,16 +8,22 @@
   </head>
 
   <body>
-    <h1>Heroes</h1>
+    <h1>Heroes Database</h1>
     <% if(error) { %>
     <h2><%= error %></h2>
     <% } %>
-    <ul>
+    <main class="hero-container">
       <% heroes.forEach(function(hero) { %>
+        <section class="hero-img">
         <%= hero.img %> 
         <img src="<%= hero.src %> " alt="<%= hero.name %> pic" width="100px" height="100px">
-      <li><%= hero.name %> - <%= hero.status  %></li>
-      <% }) %>
-    </ul>
+      </section>
+      <section class="hero-info">
+        <span class="hero-name"><%= hero.name %></span>
+        <span class="hero-alias"><%= hero.alias %></span>
+        <span class="hero-status"><%= hero.status %></span>
+        <% }) %>
+      </section>
+    </main>
   </body>
 </html>
