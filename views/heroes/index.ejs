@@ -14,22 +14,21 @@
     <h2><%= error %></h2>
     <% } %>
     <main class="hero-container">
-      <% heroes.forEach(function(hero) { %>
-      <section class="hero-img-section">
-        <%= hero.img %>
-        <img
-          src="<%= hero.src %> "
-          alt="<%= hero.name %> outfit in Endgame"
-          width="100px"
-          height="100px"
-        />
-      </section>
-      <section class="hero-info">
-        <span class="hero-name"><%= hero.name %> |</span>
-        <span class="hero-alias"><%= hero.alias %> |</span>
-        <span class="hero-status"><%= hero.status %></span>
-        <% }) %>
-      </section>
+      <div class="hero">
+        <div class="hero-img-container">
+          <% heroes.forEach(function(hero) { %>
+          <img
+            src="<%= hero.src %> "
+            alt="<%= hero.name %> outfit in Endgame"
+          width="300" height="200"/>
+        </div>
+        <div class="hero-info">
+          <p class="hero-alias">Alias: <%= hero.alias %> </p>
+          <h3 class="hero-name"> <%= hero.name %> </h3>
+          <p class="hero-status"> Status: <%= hero.status %></p>
+          <% }) %>
+        </div>
+      </div>
     </main>
   </body>
 </html>
