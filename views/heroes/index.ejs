@@ -4,9 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Heroes Database</title>
   </head>
-
+  <!-- include('head') -->
   <body>
     <h1>Heroes Database</h1>
     <% if(error) { %>
@@ -14,9 +15,14 @@
     <% } %>
     <main class="hero-container">
       <% heroes.forEach(function(hero) { %>
-        <section class="hero-img">
-        <%= hero.img %> 
-        <img src="<%= hero.src %> " alt="<%= hero.name %> pic" width="100px" height="100px">
+      <section class="hero-img-section">
+        <%= hero.img %>
+        <img
+          src="<%= hero.src %> "
+          alt="<%= hero.name %> outfit in Endgame"
+          width="100px"
+          height="100px"
+        />
       </section>
       <section class="hero-info">
         <span class="hero-name"><%= hero.name %></span>
