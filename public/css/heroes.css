@@ -63,6 +63,7 @@ body {
 .hero .hero-img-container img {
   max-width: 100%;
   margin-top: 20px;
+  background-color: black;
   border: solid cyan 2px;
 }
 
