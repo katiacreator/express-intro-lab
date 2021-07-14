@@ -1,10 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300;400;500&family=Teko:wght@300&display=swap");
 
+* {
+  box-sizing: border-box;
+}
+
 body {
   background: black;
   color: white;
   font-family: "Karla", sans-serif;
-  font-weight: 300 bc it is the smallest;
+  font-weight: 300;
 }
 
 .db-title {
@@ -13,15 +17,13 @@ body {
   background-color: red;
   color: white;
   text-align: center;
-  border: solid red 2px;
 }
 
 .db-subheading {
   font-family: "Karla", sans-serif;
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 400;
   text-align: center;
-  border: solid red 2px;
 }
 
 .btn {
@@ -29,9 +31,11 @@ body {
   color: white;
   font-family: "Karla", sans-serif;
   font-weight: 500;
-  font-size: 30px;
+  font-size: 40px;
   text-align: center;
+  padding: 8px;
   border: solid purple 2px;
+  text-decoration: none;
 }
 
 .btn:hover {
@@ -45,7 +49,6 @@ body {
   justify-content: center;
   margin: 0 auto;
   max-width: 100vw;
-  border: solid white 2px;
 }
 
 .hero {
@@ -53,51 +56,43 @@ body {
   box-shadow: 0 3px 15px rgba(100, 100, 100, 0.5);
   margin: 10px;
   padding: 20px;
+  min-width: 400px;
   text-align: center;
-  /* border: solid red 2px; */
-}
-
-.hero .hero-img-container {
-  background-color:black;
-  width: 200px;
-  height: 200px;
 }
 
 .hero .hero-img-container img {
-  max-width: 150px;
+  max-width: 100%;
+  margin-top: 20px;
+  border: solid cyan 2px;
 }
 
-.hero .hero-info {
+.hero-info {
   font-family: "Karla", sans-serif;
   background-color: rgba(163, 11, 223, 0.1);
   margin-top: 10px;
-  /* padding: 5px 10px; */
+  padding: 5px 10px;
   color: black;
-  /* border: solid red 2px; */
 }
 
-.hero .hero-info .hero-name {
+.hero-name {
   font-size: 40px;
   font-weight: 500;
-  /* margin: 15px 0 7px; */
   margin-top: 20px;
   letter-spacing: 1px;
-  /* border: solid lime 2px; */
 }
 
-.hero .hero-info .hero-alias {
+.hero-alias {
   font-size: 20px;
   font-weight: 400;
-  margin-bottom: -10px;
-  /* border: solid lime 2px; */
+  margin-top: 10px;
+  padding: 8px;
 }
 
-.hero .hero-info .hero-status {
+ .hero-status {
   font-size: 20px;
   font-weight: 300;
   background-color: black;
   color: white;
   padding: 10px 10px;
   margin-top: -30px;
-  /* border: solid lime 2px; */
 }

@@ -9,6 +9,18 @@ const heroes = [
   {src: `/images/ProfHulkAvengersEndgamelicensingart001.jpeg`, name: 'Hulk', alias: "Bruce Banner", status: "Alive", _id: 266334},
   {src: `/images/Thor-EndgameProfile.jpeg`, name: 'Thor Odinson', alias: "God of Thunder", status: "Alive", _id: 655055},
   {src: `/images/HawkeyeRonin-EndgameProfile.jpeg`, name: 'Hawkeye', alias: "Clint Barton", status: "Alive", _id: 551843},
+  /* {src: `/images/IronMan-EndgameProfile.jpeg` , name: 'Ironman', alias: "Tony Stark", status: "Dead", _id: 641198},
+  {src: `/images/WarMachine-EndgameProfile.jpeg`, name: 'War Machine', alias: "Colonel James 'Rhodey' Rhoades", status: "Alive", _id: 512236},
+  {src: `/images/BlackWidow-EndgameProfile.jpeg`, name: 'Black Widow', alias: "Natasha Romanoff", status: "Dead", _id: 304167},
+  {src: `/images/ProfHulkAvengersEndgamelicensingart001.jpeg`, name: 'Hulk', alias: "Bruce Banner", status: "Alive", _id: 266334},
+  {src: `/images/Thor-EndgameProfile.jpeg`, name: 'Thor Odinson', alias: "God of Thunder", status: "Alive", _id: 655055},
+  {src: `/images/HawkeyeRonin-EndgameProfile.jpeg`, name: 'Hawkeye', alias: "Clint Barton", status: "Alive", _id: 551843},
+  {src: `/images/IronMan-EndgameProfile.jpeg` , name: 'Ironman', alias: "Tony Stark", status: "Dead", _id: 641198},
+  {src: `/images/WarMachine-EndgameProfile.jpeg`, name: 'War Machine', alias: "Colonel James 'Rhodey' Rhoades", status: "Alive", _id: 512236},
+  {src: `/images/BlackWidow-EndgameProfile.jpeg`, name: 'Black Widow', alias: "Natasha Romanoff", status: "Dead", _id: 304167},
+  {src: `/images/ProfHulkAvengersEndgamelicensingart001.jpeg`, name: 'Hulk', alias: "Bruce Banner", status: "Alive", _id: 266334},
+  {src: `/images/Thor-EndgameProfile.jpeg`, name: 'Thor Odinson', alias: "God of Thunder", status: "Alive", _id: 655055},
+  {src: `/images/HawkeyeRonin-EndgameProfile.jpeg`, name: 'Hawkeye', alias: "Clint Barton", status: "Alive", _id: 551843}, */
 ]
 
 const find = (conditions, callback) => {
